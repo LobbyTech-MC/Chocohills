@@ -1,10 +1,9 @@
 package me.zwrumpy.chocohills.util.tool;
 
-import org.bukkit.Material;
-import org.bukkit.block.Block;
-import org.bukkit.inventory.ItemStack;
-
 import javax.annotation.Nonnull;
+
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
 
 public class ToolType {
     public boolean isPickAxe(@Nonnull ItemStack item) {

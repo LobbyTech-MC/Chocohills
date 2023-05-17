@@ -1,26 +1,29 @@
 package me.zwrumpy.chocohills.machine;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.Material;
+import org.bukkit.Sound;
+import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
+import org.bukkit.block.BlockState;
+import org.bukkit.block.Dispenser;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 import me.zwrumpy.chocohills.register.ChocoItems;
-import org.bukkit.Material;
-import org.bukkit.Sound;
-import org.bukkit.block.*;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class MenardzSmoker extends MultiBlockMachine {
 
