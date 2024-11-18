@@ -20,9 +20,11 @@ public class ChocoHills extends JavaPlugin implements SlimefunAddon {
 
         instance = this;
 
+        /*
         if (getConfig().getBoolean("auto-update") && getDescription().getVersion().startsWith("Build")) {
             new GuizhanBuildsUpdater(this, getFile(), "SlimefunGuguProject", "Chocohills", "main", false, "zh-CN").start();
         }
+        */
 
         new ToolSetup(this);
         new TransporterSetup(this);
